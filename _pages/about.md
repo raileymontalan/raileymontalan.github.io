@@ -30,7 +30,8 @@ I am an ML engineer and AI researcher for [AI Singapore](https://aisingapore.org
 
 Prior to AI Singapore, I taught NLP electives in [Ateneo de Manila University](https://ateneo.edu) and worked in the business intelligence industry.
 
------
+---
+
 <span class="filipino-text">_Kumustá?_</span>
 
 <span class="filipino-text">_Isá akóng ML engineer at AI researcher sa [AI Singapore](https://aisingapore.org). Nagfofókus ako sa pagsusurì ng [representasyóng kulturál](https://aclanthology.org/2024.paclic-1.49/) at [kakayaháng pangkatwíran](https://aclanthology.org/2025.acl-long.1509/) ng mga large language model (LLM) sa Filipíno at ibá pang wikà sa Tímog-Silángang Ásya sa pamamagítan ng [SEA-HELM](https://leaderboard.sea-lion.ai). Kasáma rin akó sa pagbuô sa [SEA-LION](https://sea-lion.ai/our-models/), ang amíng koleksiyón ng mga multilingual na LLM pára sa Tímog-Silángang Ásya, at sa [Aquarium](https://aquarium.sea-lion.ai), ang amíng open-source na data hub._</span>

@@ -49,10 +49,7 @@
       "studyType": "BSc",
       "startDate": "2014",
       "endDate": "2018",
-      "courses": [
-        "Specialization in Data Science and Analytics", 
-        "Minor in Philosophy"
-      ]
+      "courses": ["Specialization in Data Science and Analytics", "Minor in Philosophy"]
     },
     {
       "institution": "Ateneo de Manila University",
@@ -62,21 +59,14 @@
       "studyType": "MSc",
       "startDate": "2018",
       "endDate": "2019",
-      "courses": [
-        "University Publication Award for research work"
-      ]
+      "courses": ["University Publication Award for research work"]
     }
   ],
   "interests": [
     {
       "name": "Artificial Intelligence",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "cultural representation",
-        "evaluation",
-        "low-resource languages",
-        "tokenization"
-      ]
+      "keywords": ["cultural representation", "evaluation", "low-resource languages", "tokenization"]
     }
   ]
 }
