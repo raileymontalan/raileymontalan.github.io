@@ -1,34 +1,39 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: mananaliksík • 🇵🇭 in 🇸🇬
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: railey-20250818.png
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info:
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi!
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am an ML engineer and AI researcher for [AI Singapore](https://aisingapore.org). I focus on evaluating the [cultural representation](https://aclanthology.org/2024.paclic-1.49/) and [reasoning capabilities](https://aclanthology.org/2025.acl-long.1509/) of large language models (LLMs) in Filipino and other Southeast Asian languages through [SEA-HELM](https://leaderboard.sea-lion.ai). I also help develop [SEA-LION](https://sea-lion.ai/our-models/), our collection of multingual LLMs for Southeast Asia, and [Aquarium](https://aquarium.sea-lion.ai), our open-source data hub.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Prior to AI Singapore, I taught NLP electives in [Ateneo de Manila University](https://ateneo.edu) and worked in the business intelligence industry.
+
+-----
+<span class="filipino-text">_Kumustá?_</span>
+
+<span class="filipino-text">_Isá akóng ML engineer at AI researcher sa [AI Singapore](https://aisingapore.org). Nagfofókus ako sa pagsusurì ng [representasyóng kulturál](https://aclanthology.org/2024.paclic-1.49/) at [kakayaháng pangkatwíran](https://aclanthology.org/2025.acl-long.1509/) ng mga large language model (LLM) sa Filipíno at ibá pang wikà sa Tímog-Silángang Ásya sa pamamagítan ng [SEA-HELM](https://leaderboard.sea-lion.ai). Kasáma rin akó sa pagbuô sa [SEA-LION](https://sea-lion.ai/our-models/), ang amíng koleksiyón ng mga multilingual na LLM pára sa Tímog-Silángang Ásya, at sa [Aquarium](https://aquarium.sea-lion.ai), ang amíng open-source na data hub._</span>
+
+<span class="filipino-text">_Bágo akó napuntá sa AI Singapore, nagtúro akó ng mga elective sa NLP sa [Ateneo de Manila University](https://ateneo.edu) at nagtrabáho rin akó sa business intelligence industry._</span>
+<br>

@@ -1,115 +1,223 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{layacan-etal-2024-zero,
+    title = "Zero-shot Cross-lingual {POS} Tagging for {F}ilipino",
+    author = "Layacan, Jimson Paulo  and
+      Flores, Isaiah Edri W.  and
+      Tan, Katrina Bernice M.  and
+      Estuar, Ma. Regina E.  and
+      Montalan, Jann Railey E.  and
+      De Leon, Marlene M.",
+    editor = "Serikov, Oleg  and
+      Voloshina, Ekaterina  and
+      Postnikova, Anna  and
+      Muradoglu, Saliha  and
+      Le Ferrand, Eric  and
+      Klyachko, Elena  and
+      Vylomova, Ekaterina  and
+      Shavrina, Tatiana  and
+      Tyers, Francis",
+    booktitle = "Proceedings of the Third Workshop on NLP Applications to Field Linguistics",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.fieldmatters-1.9/",
+    doi = "10.18653/v1/2024.fieldmatters-1.9",
+    pages = "69--77",
+    abstract = "Supervised learning approaches in NLP, exemplified by POS tagging, rely heavily on the presence of large amounts of annotated data. However, acquiring such data often requires significant amount of resources and incurs high costs. In this work, we explore zero-shot cross-lingual transfer learning to address data scarcity issues in Filipino POS tagging, particularly focusing on optimizing source language selection. Our zero-shot approach demonstrates superior performance compared to previous studies, with top-performing fine-tuned PLMs achieving F1 scores as high as 79.10{\%}. The analysis reveals moderate correlations between cross-lingual transfer performance and specific linguistic distances{--}featural, inventory, and syntactic{--}suggesting that source languages with these features closer to Filipino provide better results. We identify tokenizer optimization as a key challenge, as PLM tokenization sometimes fails to align with meaningful representations, thus hindering POS tagging performance.",
+    bibtex_show={true},
+    abbr={Field Matters},
+    pdf="https://aclanthology.org/2024.fieldmatters-1.9.pdf",
 }
 
-@book{einstein1956investigations,
+@inproceedings{lovenia-etal-2024-seacrowd,
+    title = "{SEAC}rowd: A Multilingual Multimodal Data Hub and Benchmark Suite for {S}outheast {A}sian Languages",
+    author = {Lovenia, Holy  and
+      Mahendra, Rahmad  and
+      Akbar, Salsabil Maulana  and
+      Miranda, Lester James V.  and
+      Santoso, Jennifer  and
+      Aco, Elyanah  and
+      Fadhilah, Akhdan  and
+      Mansurov, Jonibek  and
+      Imperial, Joseph Marvin  and
+      Kampman, Onno P.  and
+      Moniz, Joel Ruben Antony  and
+      Habibi, Muhammad Ravi Shulthan  and
+      Hudi, Frederikus  and
+      Montalan, Railey  and
+      Ignatius, Ryan  and
+      Lopo, Joanito Agili  and
+      Nixon, William  and
+      Karlsson, B{\"o}rje F.  and
+      Jaya, James  and
+      Diandaru, Ryandito  and
+      Gao, Yuze  and
+      Amadeus, Patrick  and
+      Wang, Bin  and
+      Cruz, Jan Christian Blaise  and
+      Whitehouse, Chenxi  and
+      Parmonangan, Ivan Halim  and
+      Khelli, Maria  and
+      Zhang, Wenyu  and
+      Susanto, Lucky  and
+      Ryanda, Reynard Adha  and
+      Hermawan, Sonny Lazuardi  and
+      Velasco, Dan John  and
+      Kautsar, Muhammad Dehan Al  and
+      Hendria, Willy Fitra  and
+      Moslem, Yasmin  and
+      Flynn, Noah  and
+      Adilazuarda, Muhammad Farid  and
+      Li, Haochen  and
+      Lee, Johanes  and
+      Damanhuri, R.  and
+      Sun, Shuo  and
+      Qorib, Muhammad Reza  and
+      Djanibekov, Amirbek  and
+      Leong, Wei Qi  and
+      Do, Quyet V.  and
+      Muennighoff, Niklas  and
+      Pansuwan, Tanrada  and
+      Putra, Ilham Firdausi  and
+      Xu, Yan  and
+      Chia, Tai Ngee  and
+      Purwarianti, Ayu  and
+      Ruder, Sebastian  and
+      Tjhi, William  and
+      Limkonchotiwat, Peerat  and
+      Aji, Alham Fikri  and
+      Keh, Sedrick  and
+      Winata, Genta Indra  and
+      Zhang, Ruochen  and
+      Koto, Fajri  and
+      Yong, Zheng-Xin  and
+      Cahyawijaya, Samuel},
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.296/",
+    doi = "10.18653/v1/2024.emnlp-main.296",
+    pages = "5155--5203",
+    abstract = "Southeast Asia (SEA) is a region rich in linguistic diversity and cultural variety, with over 1,300 indigenous languages and a population of 671 million people. However, prevailing AI models suffer from a significant lack of representation of texts, images, and audio datasets from SEA, compromising the quality of AI models for SEA languages. Evaluating models for SEA languages is challenging due to the scarcity of high-quality datasets, compounded by the dominance of English training data, raising concerns about potential cultural misrepresentation. To address these challenges, through a collaborative movement, we introduce SEACrowd, a comprehensive resource center that fills the resource gap by providing standardized corpora in nearly 1,000 SEA languages across three modalities. Through our SEACrowd benchmarks, we assess the quality of AI models on 36 indigenous languages across 13 tasks, offering valuable insights into the current AI landscape in SEA. Furthermore, we propose strategies to facilitate greater AI advancements, maximizing potential utility and resource equity for the future of AI in Southeast Asia.",
+    bibtex_show={true},
+    abbr={EMNLP},
+    code={https://github.com/SEACrowd/seacrowd-datahub},
+    pdf="https://aclanthology.org/2024.emnlp-main.296.pdf",
+}
+
+@inproceedings{montalan-etal-2024-kalahi,
+    title = "{KALAHI}: {A} handcrafted, grassroots cultural {LLM} evaluation suite for {F}ilipino",
+    author = "Montalan, Jann Railey  and
+      Ngui, Jian Gang  and
+      Leong, Wei Qi  and
+      Susanto, Yosephine  and
+      Rengarajan, Hamsawardhini  and
+      Aji, Alham Fikri  and
+      Tjhi, William Chandra",
+    editor = "Oco, Nathaniel  and
+      Dita, Shirley N.  and
+      Borlongan, Ariane Macalinga  and
+      Kim, Jong-Bok",
+    booktitle = "Proceedings of the 38th Pacific Asia Conference on Language, Information and Computation",
+    month = dec,
+    year = "2024",
+    address = "Tokyo, Japan",
+    publisher = "Tokyo University of Foreign Studies",
+    url = "https://aclanthology.org/2024.paclic-1.49/",
+    pages = "497--523",
+    abstract = "Multilingual large language models (LLMs) today may not necessarily provide culturally appropriate and relevant responses to its Filipino users. We introduce KALAHI, a cultural LLM evaluation suite that is part of SEA-HELM. It was collaboratively created by native Filipino speakers, and is composed of 150 high-quality, handcrafted and nuanced prompts that test LLMs for generations that are relevant to shared Filipino cultural knowledge and values. Strong LLM performance in KALAHI indicates a model’s ability to generate responses similar to what an average Filipino would say or do in a given situation. We conducted experiments on LLMs with multilingual and Filipino language support. Results show that KALAHI, while trivial for Filipinos, is challenging for LLMs, with the best model answering only 46.0% of the questions correctly compared to native Filipino performance of 89.10%. Thus, KALAHI can be used to accurately and reliably evaluate Filipino cultural representation in LLMs.",
+    bibtex_show={true},
+    abbr={PACLIC},
+    code={https://github.com/aisingapore/kalahi},
+    url="https://aclanthology.org/2024.paclic-1.49.pdf",
+}
+
+@inproceedings{susanto-etal-2025-sea,
+    title = "{SEA}-{HELM}: {S}outheast {A}sian Holistic Evaluation of Language Models",
+    author = "Susanto, Yosephine  and
+      Hulagadri, Adithya Venkatadri  and
+      Montalan, Jann Railey  and
+      Ngui, Jian Gang  and
+      Yong, Xianbin  and
+      Leong, Wei Qi  and
+      Rengarajan, Hamsawardhini  and
+      Limkonchotiwat, Peerat  and
+      Mai, Yifan  and
+      Tjhi, William Chandra",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.636/",
+    doi = "10.18653/v1/2025.findings-acl.636",
+    pages = "12308--12336",
+    ISBN = "979-8-89176-256-5",
+    abstract = "With the rapid emergence of novel capabilities in Large Language Models (LLMs), the need for rigorous multilingual and multiculturalbenchmarks that are integrated has become more pronounced. Though existing LLM benchmarks are capable of evaluating specificcapabilities of LLMs in English as well as in various mid- to low-resource languages, including those in the Southeast Asian (SEA)region, a comprehensive and culturally representative evaluation suite for the SEA languages has not been developed thus far.Here, we present SEA-HELM, a holistic linguistic and cultural LLM evaluation suite that emphasises SEA languages, comprisingfive core pillars: (1) NLP CLASSICS, (2) LLM-SPECIFICS, (3) SEA LINGUISTICS, (4) SEA CULTURE, (5) SAFETY. SEA-HELMcurrently supports Filipino, Indonesian, Tamil, Thai, and Vietnamese. We also introduce the SEA-HELM leaderboard, which allows users to understand models' multilingual and multicultural performance in a systematic and user-friendly manner. We make the SEA-HELM evaluation code publicly available.",
+    bibtex_show={true},
+    abbr={ACL Findings},
+    code={https://github.com/aisingapore/sea-helm},
+    url="https://aclanthology.org/2025.findings-acl.636.pdf",
+}
+
+@inproceedings{montalan-etal-2025-batayan,
+    title = "{B}atayan: {A} {F}ilipino {NLP} benchmark for evaluating {L}arge {L}anguage {M}odels",
+    author = "Montalan, Jann Railey  and
+      Layacan, Jimson Paulo  and
+      Africa, David Demitri  and
+      Flores, Richell Isaiah S.  and
+      Ii, Michael T. Lopez  and
+      Magsajo, Theresa Denise  and
+      Cayabyab, Anjanette  and
+      Tjhi, William Chandra",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.1509/",
+    doi = "10.18653/v1/2025.acl-long.1509",
+    pages = "31239--31273",
+    ISBN = "979-8-89176-251-0",
+    abstract = "Recent advances in large language models (LLMs) have demonstrated remarkable capabilities on widely benchmarked high-resource languages. However, linguistic nuances of under-resourced languages remain unexplored. We introduce Batayan, a holistic Filipino benchmark that systematically evaluates LLMs across three key natural language processing (NLP) competencies: understanding, reasoning, and generation. Batayan consolidates eight tasks, three of which have not existed prior for Filipino corpora, covering both Tagalog and code-switched Taglish utterances. Our rigorous, native-speaker-driven adaptation and validation processes ensures fluency and authenticity to the complex morphological and syntactic structures of Filipino, alleviating the pervasive translationese bias in existing Filipino corpora. We report empirical results on a variety of open-source and commercial LLMs, highlighting significant performance gaps that signal the under-representation of Filipino in pre-training corpora, the unique hurdles in modeling Filipino{'}s rich morphology and construction, and the importance of explicit Filipino language support. Moreover, we discuss the practical challenges encountered in dataset construction and propose principled solutions for building culturally and linguistically-faithful resources in under-represented languages. We also provide a public evaluation suite as a clear foundation for iterative, community-driven progress in Filipino NLP.",
+    bibtex_show={true},
+    abbr={ACL},
+    code={https://github.com/aisingapore/sea-helm},
+    url="https://aclanthology.org/2025.acl-long.1509.pdf",
+}
+
+@inproceedings{10.1145/3305160.3305210,
+  author = {Montalan, Jann Railey and Estuar, Maria Regina Justina and Teknomo, Kardi and Gardon, Roselle Wednesday},
+  title = {Measles Metapopulation Modeling using Ideal Flow of Transportation Networks},
+  year = {2019},
+  isbn = {9781450366427},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3305160.3305210},
+  doi = {10.1145/3305160.3305210},
+  abstract = {In developing countries with limited access to medical resources, infectious diseases like measles can develop rapidly within and between communities. Combination of data coming from various sources that report historical disease incidences and transportation infrastructures are valuable sources of knowledge that can assist in public health policies and initiatives surrounding disease surveillance. This study integrates population, disease incidence, and transportation network data into measles modeling. Results show that a hybrid metapopulation modeling approach using ideal flow distribution over mobility networks can yield more accurate models for measles progression. This demonstrates the feasibility of using big data in the monitoring of measles propagation.},
+  booktitle = {Proceedings of the 2nd International Conference on Software Engineering and Information Management},
+  pages = {147–151},
+  numpages = {5},
+  keywords = {mobility and smart computing, big data applications in epidemiology, Computational modeling and data integration},
+  location = {Bali, Indonesia},
+  series = {ICSIM '19},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+  abbr = {ICSIM}
 }
