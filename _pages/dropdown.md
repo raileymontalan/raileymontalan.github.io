@@ -8,6 +8,6 @@ children:
   - title: News
     permalink: /news/
   - title: divider
-  - title: Readings
-    permalink: /readings/
+  - title: Blog
+    permalink: /blog/
 ---
