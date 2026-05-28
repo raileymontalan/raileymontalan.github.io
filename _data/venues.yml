@@ -1,11 +1,51 @@
+# Main conferences
+
 "ACL":
-  url: https://aclanthology.org/
+  url: https://aclweb.org/
   color: "#DA3832"
 
 "ACL Findings":
-  url: https://aclanthology.org
+  url: https://aclweb.org
+  color: "#DA3832"
+
+"NAACL":
+  url: https://naacl.org/
+  color: "#DA3832"
+
+"IJCNLP-AACL":
+  url: https://aaclnet.org/
   color: "#DA3832"
 
 "EMNLP":
-  url: https://aclanthology.org
+  url: https://sigdat.org/
   color: "#DA3832"
+
+"ICLR":
+  url: https://iclr.cc/
+  color: "#afd462"
+
+"ICML":
+  url: https://icml.cc/
+  color: "#273590"
+
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#634687"
+
+"LREC":
+  url: https://lrec.elra.info/
+  color: "#6d1c43"
+
+"ICSIM":
+  url: https://www.icsim.org/
+  color: "#a3be5c"
+
+"PACLIC":
+  url: https://aclanthology.org/venues/paclic/
+  color: "#DA3832"
+
+
+# Workshops
+
+"Field Matters":
+  url: https://field-matters.github.io/
