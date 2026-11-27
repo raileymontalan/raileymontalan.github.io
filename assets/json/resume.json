@@ -1,43 +1,43 @@
 {
   "basics": {
     "name": "Jann Railey Montalan",
-    "label": "ML Engineer / AI Researcher",
+    "label": "AI Engineer — LLM Evaluation and Development",
     "image": "",
     "email": "raileymontalan (at) outlook (dot) com",
     "url": "https://raileymontalan.github.io/",
-    "summary": "ML Engineer and AI Researcher focusing on multicultural and multilingual AI applications."
+    "summary": "AI engineer building and evaluating large language models for Filipino and Southeast Asian languages (SEA-LION, SEA-HELM): benchmarks, rubric-based LLM-as-judge, synthetic data, and agentic evaluation."
   },
   "work": [
     {
       "name": "AI Singapore",
       "position": "AI Engineer",
       "url": "https://aisingapore.org",
-      "startDate": "2023-05-30",
+      "startDate": "2023-06",
       "endDate": "Present",
-      "summary": "Evaluating LLMs on Southeast Asian (SEA) language and reasoning tasks. Developing an open-source data hub for SEA."
+      "summary": "Lead SEA Agent Bench (agentic evaluation for SEA-LION); core developer of SEA-HELM; evaluate SEA-LION, SEA-Guard and embedding model releases; architect of the BATAYAN, KALAHI and PACUTE Filipino benchmarks; built rubric-based LLM-as-judge pipelines; previously led Aquarium (now Project Atlas)."
     },
     {
       "name": "Ateneo de Manila University",
-      "position": "Lecturer (Part-time)",
+      "position": "Lecturer (Part-time) and Science Research Specialist",
       "url": "https://ateneo.edu",
       "startDate": "2018-06-01",
-      "endDate": "2023-04-30",
-      "summary": "Taught AI and NLP electives. Thesis adviser to final-year undergraduates."
+      "endDate": "2023-05",
+      "summary": "Taught NLP and social computing electives; mentored 20+ undergraduate researchers; led technical development of FASSSTER, a government epidemic monitoring system."
     },
     {
       "name": "MRM McCann",
       "position": "Data Analytics Lead",
       "url": "https://www.mrm.com/",
       "startDate": "2020-07-15",
-      "endDate": "2023-04-30",
-      "summary": "Led a team of data analysts in developing ML-enhanced solutions and BI dashboards for international brands."
+      "endDate": "2023-03",
+      "summary": "Built NLP pipelines in Python and PySpark; led a team of 9 across the US and Philippines delivering 10+ insight projects for global vehicle manufacturers."
     },
     {
       "name": "Cobena Business Analytics and Strategy",
       "position": "ML Consultant",
       "startDate": "2019-07-01",
       "endDate": "2020-07-15",
-      "summary": "Developed ML-powered geospatial analytics solutions and ad hoc analytics for enterprises in PH."
+      "summary": "Technical lead for Gateway, a SaaS geospatial analytics platform; built site-selection ML models for the largest retail chain in the Philippines."
     }
   ],
   "education": [
@@ -66,7 +66,15 @@
     {
       "name": "Artificial Intelligence",
       "icon": "fa-solid fa-tag",
-      "keywords": ["cultural representation", "evaluation", "low-resource languages", "tokenization"]
+      "keywords": [
+        "LLM evaluation",
+        "agentic evaluation",
+        "LLM-as-judge",
+        "low-resource languages",
+        "Filipino NLP",
+        "cultural representation",
+        "tokenization"
+      ]
     }
   ]
 }
